@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+padding: 0;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 15px 10px 15px 60px;
+  padding-left: 50px;
+  background: rgb(107, 170, 200);
+  font-size: 18px;
+  transition: 0.2s;
+ 
+ 
+}
+
+
+ul li:nth-child(odd) {
+  background: #c3e8f3;
+}
+
+#logo{
+  width:5vw;
+  height: 5vw;
+  float: left;
+  
+}
+
+
+.todoadd {
+  padding: 10px;
+  width: 25%;
+  background: #ebdd1e;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.todoadd:hover {
+  background-color: rgb(145, 247, 78);
+}
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: rgb(250, 23, 23);
+  padding: 12px 16px 12px 16px;
+  border-radius: 5px;
+}
+.doneButton {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin:3px;
+  margin-right: 10px;
+ background: rgb(240, 193, 222);
+  align-items: center;
+  align-content: center;
+  padding: 5px;
+  border-radius: 5px;
+  color: green;
+}
+.deleteAll {
+  margin:3px;
+ background: rgb(98, 134, 73);
+  align-items: center;
+  align-content: center;
+  padding: 5px;
+  border-radius: 5px;
+  color: rgb(1, 14, 1);
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+}
+.close:hover {
+  background-color: #fd2f20;
+  color: white;
+}
+#delete {
+  width:40%;
+}
+/* Style the header */
+.itemDiv {
+  background-color: #5f1355;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+#doneSection {
+  background-color: #c2a3b5;
+  margin:20px;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+#doneList p {
+  font-family: 'Roboto', sans-serif;
+  margin:10px;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+}
+h2 {
+  margin:20px;
+  
+  color: rgb(21, 104, 86);
+}
+#additemdiv h2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.itemDiv:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the input */
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+

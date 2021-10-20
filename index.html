@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>ToDoList</title>
+</head>
+<body>
+  <div class="logo">
+    <img src="assets/Group 6.svg" id="logo" alt="logo"></div>
+    <div id="additemdiv" class="itemDiv">
+        <h2>My To Do App</h2>
+        <input type="text" id="myInput" placeholder="Add new Item...">
+        <span onclick="addItemToDo()" class="todoadd">Add</span>
+      </div>
+      
+      <ul id="myUL">
+        <li>Start walking everyday<button class="doneButton">Done</button><button class="close">×</button></li>
+        <li>Applying for jobs<button class="doneButton">Done</button><button class="close">×</button></li>
+        <li>Clean home<button class="doneButton">Done</button><button class="close">×</button></li>
+        <li>Study javascript<button class="doneButton">Done</button><button class="close">×</button></li>
+        <li>Buy vegetables<button class="doneButton">Done</button><button class="close">×</button></li>
+        <li>meet family<button class="doneButton">Done</button><button class="close">×</button></li>
+    </ul>
+
+      <div id="delete"><button class="deleteAll" type="submit" onclick="deleteAllitems()">Delete All</button></div> 
+      <div id="doneSection">
+        <h2>
+          Done
+        </h2>
+        <ul id="doneList">
+          <p>Paying Rent</p>
+          
+        </ul>  
+      </div>
+      
+      <script src="script.js"></script>
+</body>
+
+</html>
